@@ -303,7 +303,7 @@ namespace NiaWicHacksGame
         {
              //This version of draw can flip (mirror) the
              //image horizontally depending on our parameter
-            _spriteBatch.Draw(dinoTextureRed,
+            _spriteBatch.Draw(dinoTextureGreen,
             new Rectangle((int)dinoPosition.X, 345, widthOfSingleSprite * 5, dinoTextureGreen.Height * 5),
             new Rectangle(dinosCurrentFrame * widthOfSingleSprite, 0, widthOfSingleSprite, dinoTextureGreen.Height),
             Color.White,
